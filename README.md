@@ -276,7 +276,7 @@ InstanceType<Type>
 
 
 ### Generics
-```
+```ts
 // Generics
 
 const  myfunc = <T>(a : T ) : T => {
