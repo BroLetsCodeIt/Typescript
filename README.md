@@ -5,11 +5,11 @@ Typescript Concepts
 
 ```ts
 interface obj {
-        firstname?: string,
-        lastname ?: string,
+        firstname?: string,  // optional
+        lastname ?: string,  // optional
         age:number,
         gender:string,
-        salary: number | null ,
+        salary: number | null ,     // salary could be number or null
         status : boolean
 }
 
