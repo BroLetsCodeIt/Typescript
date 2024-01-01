@@ -213,3 +213,44 @@ const c = document.getElementById('btn')!;
 const myform = document.querySelector('form')!;
 
 ```
+
+
+```ts
+index signature;
+
+interface Person {
+    [key : string ] :string ; 
+}
+
+const obj: Person =  {
+  names : 'abhi',
+  email : 'abhi@gmail.com'
+}
+
+
+const getName  = () =>{
+    return obj['names'];
+}
+
+const getEmail = () =>{
+    return obj['email'];
+} 
+
+first method
+const getData  = (key : string ) =>{
+    return obj[key];
+
+}
+
+second method
+const getData  = (key : 'names' | 'email' ) =>{
+    return obj[key];
+}
+
+
+const getData  = (key : keyof Person):string => {
+    return obj[key];
+}
+
+console.log(getData('names'));
+```
