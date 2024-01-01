@@ -21,3 +21,28 @@ interface newobj extends obj {
 
 }
 ```
+```ts
+interface obj {
+            firstname?: string,
+            lastname ?: string,
+            age:number    ,
+            gender ?:string ,
+            salary?: number | null ,
+            status ?: boolean
+}
+
+type Funtype = (n : number , m : number ) => void   ;
+
+interface newobj extends obj {
+    scolor: boolean,
+    fun : Funtype
+}
+
+const gigi : newobj = {
+  scolor:true ,
+  age:34,
+  fun:(n, m) =>{
+     console.log(n*m);
+  }
+}
+```
