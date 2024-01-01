@@ -154,11 +154,11 @@ productOne({
 never type
 
 
- const errorhandlerwithnevertype = () =>{
+ const errorhandlerwithnevertype = () =>{  // never type
      throw new Error();
  }
  
- const  errorhandlerwitherrortype = () =>{
+ const  errorhandlerwitherrortype = () =>{  // error type
      return new Error(); 
  }
 
