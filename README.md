@@ -151,15 +151,15 @@ productOne({
 
 ### Never type
 ```ts
-// never type
+never type
 
 
-// const errorhandlerwithnevertype = () =>{
-//     throw new Error();
-// }
+ const errorhandlerwithnevertype = () =>{
+     throw new Error();
+ }
  
-// const  errorhandlerwitherrortype = () =>{
-//     return new Error(); 
-// }
+ const  errorhandlerwitherrortype = () =>{
+     return new Error(); 
+ }
 
 ```
