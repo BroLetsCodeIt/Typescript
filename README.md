@@ -135,7 +135,9 @@ type obj = {
 }
 
 const productOne  = (product : obj ) =>{
-   console.log(product)
+   console.log(product);
+   console.log(product.name);
+   console.log(product.stock);
 }; 
 
 productOne({
