@@ -122,3 +122,27 @@ tuple
 let arr : [ number , number , number ] = [243.23 , 23.23 , 232.323 ];
 
 ```
+
+### Function with Objects
+
+```ts
+type obj = {
+    name : string , 
+    stock : number , 
+    price : number , 
+    photo : string 
+    readonly  id : string ,
+}
+
+const productOne  = (product : obj ) =>{
+   console.log(product)
+}; 
+
+productOne({
+    name :'kamlesh',
+    stock : 33,
+    price: 343,
+    photo : 'asdf',
+    id : 'gjgjgj'
+})
+```
