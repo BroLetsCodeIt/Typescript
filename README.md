@@ -273,3 +273,19 @@ ConstructorParameter<Type>
 ReturnType<Type>
 InstanceType<Type>
 ```
+
+
+### Generics
+```
+// Generics
+
+const  myfunc = <T>(a : T ) : T => {
+    let va : T = a;
+    return a;
+}
+
+const ans = myfunc(23);
+const ans1 = myfunc('asdf');
+const ans2 = myfunc(true);
+
+```
