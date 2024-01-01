@@ -192,4 +192,24 @@ never type
      return new Error(); 
  }
 
+
+```
+### Type Assertion
+
+```ts
+ Type assertion
+ 
+first syntax
+const a = document.getElementById('btn') as HTMLElement; recommended
+
+
+second syntax
+const b = <HTMLElement>document.getElementById('btn');
+
+third syntax
+const c = document.getElementById('btn')!;
+
+
+const myform = document.querySelector('form')!;
+
 ```
