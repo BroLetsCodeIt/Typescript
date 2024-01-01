@@ -254,3 +254,22 @@ const getData  = (key : keyof Person):string => {
 
 console.log(getData('names'));
 ```
+
+### ---- Type Utility Classes----
+
+```ts
+
+Partial<Type>
+Required<Type>
+Readonly<Type>
+Record<Keys , Type>
+Pick<Type , Keys>
+Omit<Type , key>
+Exclude<Type , ExcludeUnion>
+Extract<Type , Union>
+NonNullable<Type>
+Parameters<Type>
+ConstructorParameter<Type>
+ReturnType<Type>
+InstanceType<Type>
+```
