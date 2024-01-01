@@ -77,3 +77,11 @@ const newobj:obj = {
 }
 
 ```
+
+### Tuple
+
+```ts
+tuple
+let arr : [ number , number , number ] = [243.23 , 23.23 , 232.323 ];
+
+```
