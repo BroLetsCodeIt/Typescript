@@ -72,7 +72,7 @@ const gigi : newobj = {
 }
 ```
 
-### Type with function
+### Type with arrow function  
 
 ```ts
 type username = (n: number | string , m : number) => number;
@@ -83,6 +83,18 @@ const fun : username = (v,m) => {
 fun('kamlesh',34)
 
 ```
+
+### Type with normal function
+```ts
+type myType = (n : number , m : number) => number
+
+const lol :myType   = function normalfunction ( n , m) {
+      return n;
+}
+
+lol(3,4);
+```
+
 
 ### Type with Object
 ```ts
