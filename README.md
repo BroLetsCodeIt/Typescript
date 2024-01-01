@@ -46,3 +46,15 @@ const gigi : newobj = {
   }
 }
 ```
+
+### Type with function
+
+```ts
+type username = (n: number | string , m : number) => number;
+
+const fun : username = (v,m) => {
+ return 34;
+}
+fun('kamlesh',34)
+
+```
