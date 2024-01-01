@@ -1,6 +1,22 @@
 # Typescript
 Typescript Concepts
 
+### how to define a type
+
+```ts
+const arr : string[] = ['kaml','as','asf'];                                 // array of string - method -1
+const arr : Array<string> = ['asdfsdf','sdfasf'];                           // array of string - method -2 
+let num:(number | string)[] = ['asdf','asdf','sf',343];                     // array of string or number or both 
+let num : Array<number | string> = [234,34,343 , 'sd' , 'sdf'];
+```
+
+
+
+
+
+
+
+
 ### Interface 
 
 ```ts
