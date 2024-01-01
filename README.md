@@ -58,3 +58,22 @@ const fun : username = (v,m) => {
 fun('kamlesh',34)
 
 ```
+
+### Type with Object
+```ts
+
+type obj = {
+    firstname:string,
+    lastname :string ,
+    age:number,
+    statusmarriage:boolean,
+}
+
+const newobj:obj = {
+    firstname: "mahesh",
+    lastname: "kumar",
+    age: 30,
+    statusmarriage: false
+}
+
+```
