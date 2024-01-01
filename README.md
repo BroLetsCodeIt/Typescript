@@ -148,3 +148,18 @@ productOne({
     id : 'gjgjgj'
 })
 ```
+
+### Never type
+```ts
+// never type
+
+
+// const errorhandlerwithnevertype = () =>{
+//     throw new Error();
+// }
+ 
+// const  errorhandlerwitherrortype = () =>{
+//     return new Error(); 
+// }
+
+```
