@@ -15,3 +15,9 @@ interface obj {
 
 // note : interface ko extends kar sakthe hai.
 ```
+
+```ts
+interface newobj extends obj {
+
+}
+```
