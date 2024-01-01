@@ -10,8 +10,17 @@ let num:(number | string)[] = ['asdf','asdf','sf',343];                     // a
 let num : Array<number | string> = [234,34,343 , 'sd' , 'sdf'];
 ```
 
+### Rest operator
+```ts
+rest operator
 
+const fun = (a:number , ...b:number[]):number => {
+       console.log(b);
+       return a;
+}
 
+fun(34,34,12,23,34,23,12,12,12,12,32,2323,2);
+```
 
 
 
