@@ -1,5 +1,35 @@
 # Typescript
 Typescript Concepts
+### Getter and setter
+
+```ts
+getter and setter function 
+
+class Profile{
+    public id : number
+    constructor(public height : number  , protected  weight : number , power:number){
+         this.id = Math.floor(Math.random() * 100);
+    }
+
+
+    get getmyheight() : object{
+        return [this.height , this.weight];
+    }
+
+    
+    public set setmyweight(v : number) {
+        this.weight = v;
+    }
+    
+}
+
+const newProfile = new Profile(23,23,434);
+newProfile.setmyweight = 90;
+console.log(newProfile.getmyheight);
+
+```
+
+
 
 ### how to define a type
 
